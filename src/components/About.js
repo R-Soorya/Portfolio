@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
     return (
-        <section className="flex flex-col px-2 py-16 md:flex-row pt-20 justify-center" id="about">
+        <section className="flex flex-col-reverse px-2 py-16 md:flex-row pt-20 justify-center" id="about">
             <motion.div 
                 initial={{x:-100,opacity:0}}
                 whileInView={{x:0,opacity:100}}
