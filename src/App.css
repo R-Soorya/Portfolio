@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+    @apply px-2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-primary{
+    background: rgb(241, 241, 241)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.mobile-nav{
+    @apply fixed top-14 left-0 bg-white w-full h-1/4;
+}
+
+.mobile-nav li{
+    @apply w-full h-full text-center;
+}
+
+.project-desc{
+    @apply absolute left-0 right-0 bottom-0 top-0 bg-slate-800 opacity-0 duration-300 hover:opacity-80;
+}
+
+.link{
+    @apply project-desc text-center py-24;
+}
+
+.btn{
+    @apply bg-white px-5 py-2 font-bold border-2 duration-300 hover:border-cyan-700 rounded;
+}
+
+.skill{
+    @apply flex items-center text-center p-3 border-2 duration-300 hover:border-slate-800 rounded-lg shadow-md w-full;
+}
+
+.skill-name{
+    @apply pr-4 text-base font-semibold mb-2 w-24 ;
+}
+
+.skill-bar{
+    @apply w-4/6 bg-gray-300 rounded-full h-1;
+}
+
+.outfit-200 {
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-weight: 300; /* ExtraLight weight */
+    font-style: normal;
   }
+
+.outfit-200 strong {
+  font-weight: 600; /* Apply a bolder weight for strong tags */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html {
+    scroll-behavior: smooth;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
