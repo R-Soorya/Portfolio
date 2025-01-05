@@ -58,11 +58,10 @@ export default function About() {
                     </div>
                     <p className="pb-8">
                         <br />
-                        Artificial Intelligence developer with hands-on experience in Python, creating
-                        Machine Learning models for predictions and Web development using Django. Skilled
-                        in solving real-world problems through innovative tech solutions, with strong
-                        interests in Python, Machine Learning, and Generative AI. Committed to continuous
-                        learning and innovation in software development and AI.
+                        Software developer with hands-on experience in Python, focused on providing AI-driven solutions to solve real-world problems. 
+                        Skilled in leveraging AI technologies to enhance predictive capabilities and develop impactful applications.
+                        Passionate about using AI to drive innovation, optimize processes, and improve user experiences.
+                        With a strong interest in Python, Machine Learning, and Generative AI, I am committed to continuous learning and advancing software development practices through cutting-edge solutions.
                     </p>
                 </div>
             </motion.div>
