@@ -46,7 +46,7 @@ export default function Projects() {
                             <img src={outfit} alt="outfit" className="w-full shadow-lg shadow-neutral-900" />
                             <div className="link">
                                 <a
-                                    href="https://github.com/R-Soorya/AI-Fashion-Assistant"
+                                    href="https://github.com/R-Soorya/AI-Fashion-Assistant-Django"
                                     className="mr-10 bg-white hover:bg-teal-200 text-cyan-950 font-bold py-2 px-4 rounded-full"
                                 >
                                     View on GitHub

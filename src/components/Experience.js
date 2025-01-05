@@ -22,7 +22,7 @@ const ExperiencePage = () => {
         <div className="bg-primary shadow-lg rounded-lg p-6">
           <div className="flex items-center justify-between">
             <div className="text-lg font-medium text-gray-800">
-              <h2 className="text-xl font-bold text-gray-900">Generative AI Intern</h2>
+              <h2 className="text-xl font-bold text-gray-900">Software Developer Intern</h2>
               <p className="text-gray-500">SNS iNNovation Hub (iHub)</p>
             </div>
             <span className="text-sm text-gray-400">August 2024 – October 2024</span>

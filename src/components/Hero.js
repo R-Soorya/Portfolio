@@ -12,9 +12,11 @@ export default function Hero() {
 
         className='md:w-1/2 flex flex-col '>
             <h1  className='text-6xl font-hero-font text-slate-900 mt-14'> Soorya Rajkumar
-                <p className='text-2xl text-gray-500 mt-3'> I'm {" "}
+                <p className='text-2xl text-gray-500 mt-3'> I'm a {" "}
                 <TypeAnimation
                 sequence={[
+                    "Software Developer",
+                    1000,
                     "Machine Learning Engineer",
                     1000,
                     "Generative AI Engineer",
