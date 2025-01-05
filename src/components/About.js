@@ -59,7 +59,7 @@ export default function About() {
                     <p className="pb-8">
                         <br />
                         Software developer with hands-on experience in Python, focused on providing AI-driven solutions to solve real-world problems. 
-                        Skilled in leveraging AI technologies to enhance predictive capabilities and develop impactful applications.
+                        Skilled in leveraging AI technologies and developing impactful applications.
                         Passionate about using AI to drive innovation, optimize processes, and improve user experiences.
                         With a strong interest in Python, Machine Learning, and Generative AI, I am committed to continuous learning and advancing software development practices through cutting-edge solutions.
                     </p>
