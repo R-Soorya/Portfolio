@@ -18,7 +18,24 @@ const ExperiencePage = () => {
             </div>
 
       <div className="space-y-10">
-        {/* Job 1 */}
+
+      {/* Job 1 */}
+      <div className="bg-primary shadow-lg rounded-lg p-6">
+          <div className="flex items-center justify-between">
+            <div className="text-lg font-medium text-gray-800">
+              <h2 className="text-xl font-bold text-gray-900">Junior AI/ML Intern</h2>
+              <p className="text-gray-500">RDX Digital Technologies</p>
+            </div>
+            <span className="text-sm text-gray-400">February 2025 – Present</span>
+          </div>
+          <ul className="mt-4 text-gray-700 list-disc pl-6">
+            <li>Working on developing a customer support application (internal app) utilizing Flutter, FastAPI, MySQL, and n8n.</li>
+            <li>Implementing backend architecture with FastAPI and managing relational data storage with MySQL.</li>
+            <li>Integrating n8n for interactive chatbot and workflow automation to enhance customer support functionalities.</li>
+          </ul>
+        </div>
+
+        {/* Job 2 */}
         <div className="bg-primary shadow-lg rounded-lg p-6">
           <div className="flex items-center justify-between">
             <div className="text-lg font-medium text-gray-800">
@@ -34,7 +51,7 @@ const ExperiencePage = () => {
           </ul>
         </div>
 
-        {/* Job 2 */}
+        {/* Job 3 */}
         <div className="bg-primary shadow-lg rounded-lg p-6">
           <div className="flex items-center justify-between">
             <div className="text-lg font-medium text-gray-800">

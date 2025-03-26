@@ -21,7 +21,7 @@ export default function Skills() {
             <div className="flex flex-wrap gap-8 justify-center">
                 {/* Row 1 */}
                 <div className="flex flex-col md:flex-row w-full gap-8 justify-center">
-                    {/* Python - MySQL */}
+                    {/* Python - Django */}
                     <div className="skill">
                         <FaPython className="text-2xl mb-1 mr-2 text-blue-500" />
                         <h3 className="skill-name">Python</h3>
@@ -33,22 +33,6 @@ export default function Skills() {
                         </div>
 
                     <div className="skill">
-                        <FaDatabase className="text-2xl mb-1 mr-2 text-purple-500" />
-                        <h3 className="skill-name">MySQL</h3>
-                        {/* Skill Progress Bar */}
-                        <div className="skill-bar">
-                            <div className="bg-purple-500 h-1 rounded-full" style={{ width: '70%' }}></div>    
-                        </div>
-                        <p className='ml-10'>70%</p>
-                    </div>
-                </div>
-            </div>
-
-            <div className="flex flex-wrap gap-8 justify-center mt-8">
-                {/* Row 2 */}
-                <div className="flex flex-col md:flex-row w-full gap-8 justify-center">
-                    {/* Django - Flask */}
-                    <div className="skill">
                         <DiDjango className="text-3xl mb-1 mr-2 text-green-500" />
                         <h3 className="skill-name">Django</h3>
                         {/* Skill Progress Bar */}
@@ -58,15 +42,35 @@ export default function Skills() {
                         <p className='ml-10'>80%</p>
                     </div>
 
+                    
+                </div>
+            </div>
+
+            <div className="flex flex-wrap gap-8 justify-center mt-8">
+                {/* Row 2 */}
+                <div className="flex flex-col md:flex-row w-full gap-8 justify-center">
+                    {/* FastAPI - MySQL */}
+                    
                     <div className="skill">
                         <FaPython className="text-3xl mb-1 mr-2 text-yellow-500" /> {/* Use the Python icon for Flask */}
-                        <h3 className="skill-name">Flask</h3>
+                        <h3 className="skill-name">FastAPI</h3>
                         {/* Skill Progress Bar */}
                         <div className="skill-bar">
-                            <div className="bg-yellow-500 h-1 rounded-full" style={{ width: '70%' }}></div>
+                            <div className="bg-yellow-500 h-1 rounded-full" style={{ width: '80%' }}></div>
+                        </div>
+                        <p className='ml-10'>80%</p>
+                    </div>
+
+                    <div className="skill">
+                        <FaDatabase className="text-2xl mb-1 mr-2 text-purple-500" />
+                        <h3 className="skill-name">MySQL</h3>
+                        {/* Skill Progress Bar */}
+                        <div className="skill-bar">
+                            <div className="bg-purple-500 h-1 rounded-full" style={{ width: '70%' }}></div>    
                         </div>
                         <p className='ml-10'>70%</p>
                     </div>
+
                 </div>
             </div>
 
