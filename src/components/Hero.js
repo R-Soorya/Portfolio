@@ -27,7 +27,7 @@ export default function Hero() {
                 </p> 
             </h1>
             <div className='py-8'>
-            <a className='btn' href="https://drive.google.com/file/d/11NvFaUrkDSglXouu8JBD2liWuKL1C4CS/view?usp=sharing">Download Resume</a>
+            <a className='btn' href="https://drive.google.com/file/d/14_nNn3u_n0NIcyqGIWugh_SxVCrtofge/view?usp=sharing">Download Resume</a>
             </div>
             <div className='flex'>
                 <a href="https://www.linkedin.com/in/soorya-rajkumar/" className='pr-3 hover:text-cyan-950' aria-label="LinkedIn">
